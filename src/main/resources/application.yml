@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ZZFGptPro
+
+  ai:
+    openai:
+      api-key: ${api-key}
+      base-url: ${api-url}
+      chat:
+        options:
+          model: gpt-4-turbo
+          temperature: 0.3f
+      image:
+        options:
+          model: dall-e-3
